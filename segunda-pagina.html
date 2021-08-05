@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <style>
+        form > *{
+            display: block;
+        }
+    </style>
 </head>
+
 <body>
     
     <a href="documento.html">Home</a>
@@ -20,7 +26,25 @@
         <li><a href="tel:622179927">Teléfono</a></li>
     </ul>
     
+    <hr>
 
+    <h2>Formulario de registro</h2>
+
+    <form action="">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre">
+
+        <label for="sugerencias">Sugerencias</label>
+        <textarea id="sugerencias" cols="30" rows="10"></textarea>
+
+        <label for="horario">Elige el horario</label>
+        <select id="horario">
+            <option value="mañanas">Mañanas</option>
+            <option value="tardes">Tardes</option>
+        </select>
+
+    </form>
 
 
 </body>
